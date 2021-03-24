@@ -1,0 +1,32 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/change/change",
+        "pages/history/history"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#9BD770",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "翻译小程序",
+        "backgroundColor": "#2b85e4",
+        "backgroundTextStyle": "dark"
+    },
+    "tabBar": {
+        "color": "#375F1B",
+        "selectedColor": "#9BD770",
+        "backgroundColor": "#f8f8f9",
+        "borderStyle": "black",
+        "position": "top",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "翻译"
+            },
+            {
+                "pagePath": "pages/history/history",
+                "text": "翻译历史"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
